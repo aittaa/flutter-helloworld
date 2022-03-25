@@ -13,7 +13,14 @@ class MyApp extends StatelessWidget {
   }
 }
 
-class MyCard extends StatelessWidget {
+class _State extends State<> {
+  @override
+  Widget build(BuildContext context) {
+    return Container();
+  }
+}
+
+class MyCard extends Stateless {
 
   @override
   Widget build(BuildContext context) {
