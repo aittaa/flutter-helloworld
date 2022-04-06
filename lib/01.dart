@@ -23,7 +23,7 @@ class MyCard extends StatelessWidget {
         elevation: 0, // 떠 있는 듯한 음영효과 위한 높이 설정
       ),
       body: Center(
-        // 가로 중ㅑ 정렬
+        // 가로 중앙 정렬
         child: Column(
           mainAxisAlignment:
               MainAxisAlignment.center, //앱 스크린 내 위젯을 세로 상중하단에 위치시킬 때
